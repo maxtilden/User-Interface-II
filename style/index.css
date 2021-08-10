@@ -94,9 +94,16 @@ nav a{
     display:flex;
     justify-content:space-evenly;
 }
-.img img{
-    width:150%;
+
+.img{
+    width:50%;
+    border:1px solid black;
 }
+.img img{
+    
+    width:100%;
+}
+
 .txt{
     width:50%;
     margin-left:20%;
@@ -177,4 +184,10 @@ footer .contact{
     color:white;
     padding:.5%;
     
+}
+@media (max-width: 800px) {
+
+}
+@media (max-width: 500px) {
+
 }
